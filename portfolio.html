@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="diseño, diseñador, diseño web, branding, lettering, editorial, fotografia, animacion, diseño grafico">
+  <meta name="description" content="En Ay Oliver Agencia contamos con una larga trayectoria en diseño gráfico y digital, ofreciendote el mejor servicio y asesoramiento para tus proyectos">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,900;1,700&family=Overpass:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style-style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio - Ay Oliver! Agencia de diseño</title>
+</head>    
+<body>
+  <!--Header-->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <h1>
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="img/marca_ayoliver.png" alt="Marca Agencia Ay Oliver" width="40%">
+          </a>
+        </h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestros-servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>                
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>  
+  <section class="container">
+    <article class="titulo">
+      <h3>Portfolio</h3>
+    </article>
+    <div class="row">
+      <div class="col-lg-4">
+        <h5>Minoa</h5>
+        <p class="parrafo-portfolio">
+          <strong>Descripción del proyecto 1:</strong> <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Voluptatibus expedita blanditiis aut! Pariatur quidem incidunt, magnam voluptas culpa neque, 
+            doloremque aspernatur deserunt provident.
+        </p>
+      </div>
+      <div id="carousel-porfolio" class="col-lg-8 carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="img/minoa-brand-1.jpg" class="d-block w-100" alt="imagen de taza con logo de marca">
+          </div>
+          <div class="carousel-item">
+              <img src="img/minoa-brand-2.jpg" class="d-block w-100" alt="imagen de taza con logo de marca">
+          </div>
+          <div class="carousel-item">
+              <img src="img/minoa-brand-3.jpg" class="d-block w-100" alt="imagen de taza con logo de marca">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-porfolio" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-porfolio" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--                            ********************** Consulta por Carousel**************************
+   En este carousel también intenté cambiar el tamaño pero no sé si lo hice correctamente. 
+   Cómo puedo agregar otro carousel o algo parecido para que, al hacer clic en un botón de "siguiente", se muestre otro proyecto. En este caso, se cambiaría
+   el nombre de la marca, el párrafo de descripción y el carousel con las imágenes del proyecto, todo junto digamos. 
+   Seria, "Marca A, Descripción A e Imágenes A (carousel)"  clic en siguiente siguiente -> "Marca B, Descripción B e Imágenes B (carousel)"
+                                **********************************************************************
+  -->
+  <!--Footer -->
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <div class="caja-footer"> 
+      <a href="http://www.facebook.com" target="_blank"><img class="iconos-footer" src="img/facebook_web.png"  alt="icono facebook" height="30px"></a>
+      <a href="http://www.instagram.com" target="_blank"><img class="iconos-footer" src="img/instagram_web.png"  alt="icono instagram" height="30px"></a>
+      <a href="index.html"><img class="iconos-footer" src="img/solo_oli.png" alt="Logo" height="45px"></a>
+    </div>
+    <div>
+      <p class="mb-1">&copy; Alexia Schapira 2020 - Coderhouse </p>
+    </div> 
+  </footer>
+  <!--Javascript Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+</html>

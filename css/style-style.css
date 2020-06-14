@@ -1,0 +1,98 @@
+/* Variables*/
+.el-boton {
+  background-color: white;
+  color: #ff009a;
+  text-align: center;
+  border: 0px; }
+
+/* Estructura*/
+body {
+  font-family: 'Overpass', sans-serif; }
+
+/* Home*/
+.texto-slider {
+  padding-bottom: 20%;
+  padding-left: 5%;
+  text-shadow: 0 0 10px #353535;
+  text-align: center;
+  font: bold 40px "Overpass", sans-serif; }
+
+.carousel-inner {
+  height: 520px !important; }
+
+/*Navbar*/
+nav {
+  background-color: #fff;
+  box-shadow: 0px 0px 30px #ff2cae56; }
+
+div ul li a:hover {
+  background-color: #ff009a;
+  border-radius: 10px; }
+
+/* Seccion nosotros */
+.imagen-nosotros {
+  height: 230px; }
+
+.descripcion-nosotros {
+  width: 230px;
+  margin-top: 15px;
+  text-align: center; }
+
+/* Seccion servicios */
+/*Iconos servicios */
+.iconos-servicios {
+  width: 60px;
+  height: 60px; }
+
+.iconos-servicios:hover {
+  transform: scale(1.4);
+  transition: 50ms; }
+
+/* Seccion contacto */
+label {
+  color: white; }
+
+.cuadrado-formulario.col-md-6 {
+  background-color: #ff009a;
+  padding: 25px 0 25px 25px;
+  border-radius: 10px; }
+
+.area-consulta.col-md-6 {
+  margin-top: 20px;
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: 10px; }
+
+h3 {
+  font: bold 30px "Chivo", sans-serif;
+  color: #ff009a;
+  margin-top: 35px;
+  margin-bottom: 30px; }
+
+h4 {
+  font: 20px "Chivo", sans-serif;
+  color: #ff009a;
+  margin-bottom: 20px; }
+
+h5 {
+  font: bold 30px "Chivo", sans-serif;
+  color: #bb1fcf;
+  display: block;
+  font-size: 20px;
+  margin-block-start: 15px;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; }
+
+/* Portfolio */
+.parrafo-portfolio {
+  color: #212529;
+  text-align: left;
+  font-size: 15px;
+  width: 300px; }
+
+/* footer*/
+.iconos-footer {
+  margin: 8px; }

@@ -1,0 +1,18 @@
+{
+  "name": "oliver-web",
+  "version": "1.0.0",
+  "description": "desafio coderhouse agencia de diseño",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/oliver-style.scss css/style-style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "AleLu",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {}
+}
